@@ -1,0 +1,92 @@
+:root {
+    font-size: 16px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.banner{
+	font-weight: bold;
+	font-size: 4rem;
+	border-bottom-color: black; 
+	border-bottom: ridge;
+	text-align: center;
+	background-color: #d2ff4d;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background-color: blue;
+
+}
+.containerItem{
+	width: 44vw;
+	margin: 1vw;
+	background-color: red;
+	padding: 1vw;
+}
+.profileImage{
+	
+	height: 100%;
+}
+h1{
+	font-size: 3rem;
+}
+h2{
+	font-size: 2rem;
+}
+p{
+	font-size: 1.5rem;
+}
+.containerheading{
+	width: 100vw;
+	background-color: #d2ff4d;
+	text-align: center;
+}
+.techitem{
+	width: 32vw;
+	display: flex;
+	flex-direction: row;
+
+}
+.techitemimg{
+	width: 45%;
+	height: 100%;
+}
+.techitemtext{
+	width: 65%;
+	height: 100%;
+	font-size: 1.2rem;
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.techitem{
+	width: 47vw;
+	display: flex;
+	flex-direction: row;
+
+}
+}
+@media only screen and (max-width: 480px){
+	.containerItem{
+	width: 98vw;
+	margin: 1vw;
+	background-color: red;
+	padding: 1vw;
+	}
+	h1{
+	font-size: 1rem;
+	}
+	h2{
+	font-size: 1rem;
+	}
+	p{
+	font-size: 1rem;
+	}
+	.banner{
+		font-size: 1.5rem;
+	}
+
+	.techitem{
+	width: 98vw;
+	display: flex;
+	flex-direction: row;
+}
