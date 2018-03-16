@@ -71,6 +71,9 @@ p{
 	height: 100%;
 	font-size: 1.2rem;
 }
+strong{
+	font-size: 2rem;
+}
 @media screen and (min-width: 480px) and (max-width: 767px){
 	.techitem{
 	width: 47vw;
