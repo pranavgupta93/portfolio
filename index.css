@@ -49,10 +49,24 @@ p{
 
 }
 .techitemimg{
-	width: 45%;
+	width: 35%;
 	height: 100%;
 }
 .techitemtext{
+	width: 65%;
+	height: 100%;
+	font-size: 1.2rem;
+}
+.containerItem2{
+	width: 32vw;
+	display: flex;
+	flex-direction: row;
+}
+.containeritem2img{
+	width: 35%;
+	height:100%;
+}
+.containeritem2txt{
 	width: 65%;
 	height: 100%;
 	font-size: 1.2rem;
