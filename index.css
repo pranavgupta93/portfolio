@@ -63,26 +63,51 @@ p{
 	flex-direction: row;
 }
 .containeritem2img{
-	width: 35%;
+	width: 45%;
 	height:100%;
 }
 .containeritem2txt{
-	width: 65%;
+	width: 55%;
 	height: 100%;
 	font-size: 1.2rem;
 }
 strong{
 	font-size: 2rem;
 }
-@media screen and (min-width: 480px) and (max-width: 767px){
+@media screen and (min-width: 480px) and (max-width: 960px){
+	.containerItem{
+	width: 98vw;
+	margin: 1vw;
+	padding: 1vw;
+}
+	strong{
+	font-size: 1.5rem;
+}
 	.techitem{
 	width: 47vw;
 	display: flex;
 	flex-direction: row;
 
 }
+	.containerItem2{
+	width: 32vw;
+	display: flex;
+	flex-direction: column;
+	}
+	.containeritem2img{
+	width: 60%;
+	height:60%;
+	}
+	.containeritem2txt{
+	width: 100%;
+	height: 100%;
+	font-size: 1rem;
+	}
 }
 @media only screen and (max-width: 480px){
+	strong{
+	font-size: 1.2rem;
+}
 	.containerItem{
 	width: 98vw;
 	margin: 1vw;
@@ -106,4 +131,21 @@ strong{
 	width: 98vw;
 	display: flex;
 	flex-direction: row;
+
+}
+	.containerItem2{
+	width: 98vw;
+	display: flex;
+	flex-direction: row;
+	}
+	.containeritem2txt{
+	width: 100%;
+	height: 100%;
+	font-size: 1rem;
+	}
+	.techitemtext{
+	width: 100%;
+	height: 100%;
+	font-size: 1rem;
+}
 }
